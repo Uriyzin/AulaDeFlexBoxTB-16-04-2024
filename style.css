@@ -1,0 +1,91 @@
+body
+{
+    background-color: #000000;
+    color: #ccc;
+}
+
+.item
+{
+    background-color: #296821;
+    font-size: 32px;
+    text-align: center;
+    margin: 5px;
+}
+
+h1
+{
+    text-align: center;
+    color: #ccc;
+    background-color: #296821;
+}
+
+.caixa
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.CaixaComFlex
+{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.CaixaComFlexeWrap
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CaixaFlexStart
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.CaixaFlexEnd
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CaixaSpaceBetween
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CaixaSpaceAround
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.CaixaCenter
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
